@@ -474,4 +474,9 @@
     .firstWin {
         padding: 1rem 2rem;
     }
+    
+    .popup-content {
+        height: 80%;
+        width: 80%;
+    }
 }
