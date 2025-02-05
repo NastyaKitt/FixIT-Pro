@@ -336,3 +336,142 @@
         display: none;
     }
 }
+@media (max-width:380px) {
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        width: calc(100% - 4rem);
+        padding: 0 2rem;
+    }
+    .firstWin {
+        width: calc(100% - 4rem);
+        padding: 10rem 2rem;
+        height: 30rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .photoLogo {
+        display: none;
+    }
+    .whyUs {
+        & .leftUs {
+            & .leftUsButtons {
+                & button {
+                    width: 10rem;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .leftUs {
+            &:hover {
+                & .leftUsButtons {
+                    width: 11rem;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            & .rightUsButtons {
+                & button {
+                    width: 10rem;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            &:hover {
+                & .rightUsButtons {
+                    width: 11rem;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+    .price {
+        & .priceList {
+            & .priceListItems {
+                & .priceItem {
+                    text-align: left;
+                    & p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .price {
+        & .priceButton {
+            width: 25rem;
+            height: 6rem;
+            font-size: 1.4rem;
+            border-radius: 1rem;
+        }
+    }
+    footer {
+        & .config {
+            width: calc(100% - 4rem);
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 5rem;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    header, .naming {
+        width: calc(100% - 12.5rem);
+        background-color: #808080;
+        color: #fff;
+        padding: 1rem 6.25rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        & p{
+            padding: 2rem 0;
+        }
+        & h2 {
+            font-weight: 500;
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            & .rightUsButtons {
+                height: 15rem;
+                width: 10rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: #00f;
+            }
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            height: 16rem;
+        }
+    }
+    .whyUs {
+        & .leftUs {
+            & .leftUsButtons {
+                height: 17rem;
+                width: 10rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: #00f;
+            }
+        }
+    }    .whyUs {
+        & .leftUs {
+            height: 18rem;
+        }
+    }
+    .firstWin {
+        padding: 1rem 2rem;
+    }
+}
