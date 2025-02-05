@@ -320,7 +320,7 @@
         }
     }
 }
-@media (max-width:420px) {
+@media (max-width:500px) {
     .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
         width: calc(100% - 5rem);
         padding: 0 2.25rem;
