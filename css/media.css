@@ -1,0 +1,338 @@
+@media (max-width: 1800px) {
+    .miniStory {
+        & .storyText {
+            & .storyRight {
+                & p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            & .rightUsText {
+                & p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .leftUs {
+            & .leftUsText {
+                & p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1440px) {
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        width: calc(100% - 26rem);
+        padding: 0 13rem;
+        margin: 4rem 0 0;
+    }
+}
+@media (max-width:1366px) {
+    html {
+        font-size: 14px;
+    }
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        margin: 4rem 0;
+    }
+}
+@media (max-width:1024px) {
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        width: calc(100% - 20rem);
+        padding: 0 10rem;
+    }
+    .photoLogo img{
+        width: 30rem;
+        height: 20rem;
+    }
+    .whyUs {
+        & .leftUs {
+            & .leftUsText {
+                & h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            & .rightUsText {
+                & h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .miniStory {
+        & .storyButtons {
+            & button {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .miniStory {
+        & .storyText {
+            height: 35rem;
+        }
+    }
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        width: calc(100% - 16rem);
+        padding: 0 8rem;
+    }
+    .form {
+        & form {
+            & input {
+                width: 15rem;
+            }
+        }
+    }
+    .masters {
+        & .mastera {
+            & .master {
+                & img {
+                    width: 16rem;
+                    height: 16rem;
+                }
+            }
+        }
+    }
+}
+/* ----------------------ПЛАНШЕТ */
+@media (max-width:960px) {
+    html {
+        font-size: 12px;
+    }
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        margin: 4rem 0;
+    }
+}
+@media (max-width:830px) {
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        width: calc(100% - 12rem);
+        padding: 0 6rem;
+    }
+    
+}
+@media (max-width:730px) {
+    .whyUs {
+        & .leftUs {
+            & .leftUsText {
+                & p {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .leftUs {
+            & .leftUsButtons {
+                & button {
+                    width: 16rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            & .rightUsButtons {
+                & button {
+                    width: 16rem;
+                }
+            }
+        }
+    }
+    .price {
+        & .priceList {
+            & .priceListItems {
+                & .priceItem {
+                    & p {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .price {
+        & .priceList {
+            & .priceName {
+                & h2 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .price {
+        & .priceList {
+            & .priceName {
+                & button {
+                    & svg {
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    .miniStory {
+        & .storyText {
+            & .storyRight {
+                width: calc(50% - 2rem);
+                height: calc(100% - 2rem);
+                padding: 1rem;
+            }
+        }
+    }
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        width: calc(100% - 10rem);
+        padding: 0 5rem;
+    }
+}
+@media (max-width:640px) {
+    html {
+        font-size: 10px;
+    }
+    .photoLogo img {
+        width: 20rem;
+        height: 15rem;
+    }
+    .whyUs {
+        & .rightUs {
+            & .rightUsText {
+                & p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .leftUs {
+            & .leftUsText {
+                & p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+    .masters {
+        & .mastera {
+            & .master {
+                & img {
+                    width: 10rem;
+                    height: 10rem;
+                }
+                & h2 {
+                    font-size: 1rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .miniStory {
+        & h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+    }
+    .miniStory {
+        & .storyText {
+            & .storyRight {
+                & p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    header, .naming {
+        width: calc(100% - 8rem);
+        padding: 1rem 4rem;
+    }
+    footer {
+        & h1 {
+            padding-top: 0;
+            font-size: 2rem;
+        }
+    }
+    footer {
+        & .config {
+            width: calc(100% - 8rem);
+            padding: 0 4rem;
+            & p {
+                font-size: 1rem;
+            }
+            button {
+                font-size: 1rem;
+            }
+        }
+    }
+    .form {
+        & form {
+            display: flex;
+            margin-top: 2rem;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            & input {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .miniStory {
+        & .storyText {
+            & .storyLeft {
+                display: none;
+            }
+        }
+    }
+    .miniStory {
+        & .storyText {
+            & .storyRight {
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+                border: 1px solid #000;
+            }
+        }
+    }
+    .miniStory {
+        & .storyText {
+            &.active {
+                height: auto;
+            }
+        }
+    }
+    .form {
+        & h1 {
+            font-size: 2rem;
+        }
+    }
+    footer {
+        & .config {
+            width: calc(100% - 8rem);
+            padding: 2rem 4rem 0;
+        }
+    }
+}
+@media (max-width:420px) {
+    .whyUs, .price, .miniStory, .form, .map, .faq, .masters {
+        width: calc(100% - 5rem);
+        padding: 0 2.25rem;
+    }
+    .firstWin {
+        width: calc(100% - 5rem);
+        padding: 10rem 2.25rem;
+        height: 30rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .photoLogo {
+        display: none;
+    }
+}
