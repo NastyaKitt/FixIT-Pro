@@ -286,18 +286,45 @@
     }
     .miniStory {
         & .storyText {
-            & .storyLeft {
-                display: none;
+            & .storyRight {
+                width: calc(100% - 2rem);
+                height: auto;
+                padding: 1rem;
+                border: 1px solid #000;
+            }
+        }
+    }
+    .whyUs {
+        & .leftUs {
+            & .leftUsText {
+                & h2 {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+    .whyUs {
+        & .rightUs {
+            & .rightUsText {
+                & h2 {
+                    font-size: 1.6rem;
+                }
             }
         }
     }
     .miniStory {
         & .storyText {
-            & .storyRight {
-                width: 100%;
-                height: auto;
-                padding: 1rem;
-                border: 1px solid #000;
+            &.active {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .miniStory {
+        & .storyText {
+            & .storyLeft {
+                width: 100%
             }
         }
     }
@@ -478,5 +505,12 @@
     .popup-content {
         height: 80%;
         width: 80%;
+    }
+    .miniStory {
+        & .storyButtons {
+            & button {
+                font-size: 1rem;
+            }
+        }
     }
 }
